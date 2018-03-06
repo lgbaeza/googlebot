@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Educación e Inclusión Social</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+
+  <body onload="InitializeConversation()">
+    <div style="padding-left:15px;">
+      <h1>Educación e Inclusión Social</h1>
+      <div id="chatArea">
+
+        <div id="cb_title">
+          <img src="http://www.residentmar.io/static/post_assets/watsongraph-visualization/robotic_suggestions.jpg"
+           width="50px" style="vertical-align: middle">
+          Chatea con Watson
+        </div>
+
+        <div id="watson_chatbot">
+            
+        </div>
+
+        <div id="controlsArea">
+            <input type="text" id="watson_input">
+            <input type="button" value="Enviar" onclick="SendMessage()">
+            <input type="button" value="Reiniciar">
+        </div>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+
+</html>
